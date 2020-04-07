@@ -4,7 +4,8 @@ import { RouterModule } from '@angular/router';
 
 import { SharedProductStateModule } from '@nx-example/shared/product/state';
 
-import { HomePageComponent } from './home-page/home-page.component';
+import { HomePageComponent } from './views/home-page/home-page.component';
+import { OtherComponent } from './component/other/other.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,7 @@ import { HomePageComponent } from './home-page/home-page.component';
       }
     ])
   ],
-  declarations: [HomePageComponent],
+  declarations: [HomePageComponent, OtherComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ProductsHomePageModule {}

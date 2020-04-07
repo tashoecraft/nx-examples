@@ -54,6 +54,7 @@
     "react-router-dom": "5.1.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
+    "shallow-render": "9.0.2",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
